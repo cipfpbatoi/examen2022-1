@@ -9,10 +9,8 @@ class CintaVideoTest extends \Codeception\Test\Unit
     
     protected function _before()
     {
-        include_once('./src/CintaVideo.php');
-
-
     }
+
     // tests
     public function testPreuAmbIva()
     {

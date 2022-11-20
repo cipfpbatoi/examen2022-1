@@ -25,7 +25,7 @@
                         <li>Documentada amb phpDocBlocs </li>
                         <li>En el namespace App\Objectes</li>
                         <li>Amb els getters i setters de totes les propietats</li>
-                        <li>Amb el metode __toString que mostra un div amb tots les propietas tal com està en la prova</li>
+                        <li>Amb el metode __toString() que mostra un div amb tots les propietas tal com està en la prova</li>
                     </ul>
                 </li>
 
