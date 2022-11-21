@@ -1,6 +1,6 @@
 {
-    "name": "igomis/phpserve",
-    "description": "Solucions exercicis",
+    "name": "cipfpbatoi/examen",
+    "description": "Examen PHP 2022",
     "license" : "MIT",
     "autoload": {
         "psr-4": {
@@ -9,17 +9,13 @@
     },
     "authors": [
         {
-            "name": "igomis",
-            "email": "igomis@cipfpbatoi.es"
+            "name": "Ignasi Gomis",
+            "email": "i.gomismullor@edu.gva.es"
         }
     ],
     "require-dev": {
         "codeception/codeception": "^5.0",
         "codeception/module-phpbrowser": "^3.0",
         "codeception/module-asserts": "^3.0"
-    },
-    "require": {
-        "fabpot/goutte": "^4.0",
-        "monolog/monolog": "^3.2"
     }
 }
