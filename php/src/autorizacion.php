@@ -8,7 +8,7 @@
               crossorigin="anonymous">
     </head>
     <body>
-        <form method="post" action="autorizacion.php">
+        <form method="post" enctype="multipart/form-data" action="autorizacion.php">
             <div class="form-group row">
                 <label for="nombre" class="col-4 col-form-label">Nom</label>
                 <div class="col-8">
@@ -45,6 +45,14 @@
                                type="text"
                                class="form-control"
                         >
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="consentimiento" class="col-4 col-form-label">Foto</label>
+                <div class="col-8">
+                    <div class="input-group">
+                        <input name="foto" type="file" />
                     </div>
                 </div>
             </div>
