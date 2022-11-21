@@ -4,7 +4,7 @@
     "license" : "MIT",
     "autoload": {
         "psr-4": {
-            "Igomis\\Phpserve\\": "default_site/src/"
+            "App\\": "src/app/"
         },
         "files": ["src/app/Helpers/myHelper.php"]
     },
@@ -18,5 +18,9 @@
         "codeception/codeception": "^5.0",
         "codeception/module-phpbrowser": "^3.0",
         "codeception/module-asserts": "^3.0"
+    },
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "monolog/monolog": "^3.2"
     }
 }
