@@ -10,9 +10,6 @@
     <body>
     <?php
     include_once ("header.php");
-    if (isset($error)) {
-        echo "<p style='color: red'>$error</p>";
-    }
     ?>
         <h2>Pots triar tres discos favorits. Has triat fins ara: 0</h2>
         <form method="post" action="concurso.php">
@@ -22,7 +19,12 @@
             </select>
             <div class="form-group row">
                 <div class="offset-4 col-8">
-                    <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                    <button id="continuar" name="submit" value='continuar' type="submit" class="btn btn-primary">
+                        Continuar
+                    </button>
+                    <button id="finalitzar" name="submit" value='finalitzar' type="submit" class="btn btn-primary">
+                        Finalitzar enquesta
+                    </button>
                 </div>
             </div>
         </form>
